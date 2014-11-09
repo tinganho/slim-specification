@@ -14,6 +14,19 @@ set x, y = 1i, 2i
 let x, y = 1i, 2i
 ```
 
+Also for declaring function/method parameters:
+
+```
+function name(set x: Int, set y: Int) {
+  // do stuff
+}
+
+name(set x: Int, set y: Int) {
+  // do stuff
+}
+```
+Function parameters are `set` by default.
+
 ##Assignment operators
 We are adding multiple assignments in Nalie.
 ```
