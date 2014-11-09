@@ -80,7 +80,7 @@ when something {
 ```
 
 ## Routines
-In Javascript we don't have a first-class citizen for dealing with multiple threads. We are introducing the `dispatch` keyword to deal with this. The `dispatch`keyword must precede a block and you can pass in variables in the block if you want to. We are introducing a new declaration type `channel` for communication between threads. We are also intorducing the `await` keyword to block execution until a message is recieved to prevent race conditions.
+In Javascript we don't have a first-class citizen for dealing with multiple threads. We are introducing the `dispatch` keyword to deal with this. The `dispatch`keyword must precede a block and you can pass in variables in the block if you want to. We are introducing a new declaration type `channel` for communication between threads. We are also introducing the `await` keyword to block execution until a message is recieved to prevent race conditions.
 ```
 channel ounce: Int
 
