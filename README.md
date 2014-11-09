@@ -22,6 +22,13 @@ let x:Int, y:int = 1, 2
 ```
 
 #Control flows
+## if
+Works as before though we drop the parenthesis.
+```
+if x == 1 {
+  //do stuff
+}
+```
 ##For-in
 `For-in` statements can take a range specified with `n1..n2`.
 ```
@@ -34,6 +41,7 @@ They can also take an array as before.
 ```
 set posts = [{ 'title': 'title1' }, { title: 'title2'}, ...];
 for post in posts {
+  //do stuff
 }
 ```
 
