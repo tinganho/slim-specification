@@ -22,7 +22,23 @@ let x:Int, y:int = 1, 2
 ```
 
 #Control flows
-##When statements
+##For-in
+`For-in` statements can take a range specified with `n1..n2`.
+```
+for something in 1..3 {
+  //do stuff
+}
+```
+They can also take an array as before.
+
+```
+set posts = [{ 'title': 'title1' }, { title: 'title2'}, ...];
+for post in posts {
+}
+```
+
+
+##When
 We are dropping the parenthesis because parenthesis implies callability and confuses developers. We still want all blocks to be encapsulated with curly brackets {}. And we are also dropping the switch keyword. We don’t know why many programming languages adopted either the switch or select keywords, but one guess is that select is the short name for selection and thereby used the select keyword for a selection of cases. Switch doesn’t make any sense for us, though it might come from the switch button. Though a switch button usually only have two cases on/off. Switch in spoken English implies two cases also switch means switch to something, which breaks semantics, because we are executing blocks of code if some case is happening and we are not switching from one block to an another.
 
 ```
