@@ -56,7 +56,7 @@ when something {
   is 'ewffe' {
      // do stuff
   }
-  is 'wffwe', 'ewfefwewf' {
+  is 'wffwe' | 'ewfefwewf' {
     // do stuff
     break;
   }
