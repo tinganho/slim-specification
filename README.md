@@ -81,7 +81,7 @@ await ounce
 ```
 
 ##Inheritance
-We know that ES6 defines the `extends` keyword for extending a `class`. Though we are disagreeing that we need to introduce an another keyword for this purpose. The colon `:` symbol already defines what kind of type an object has and it is quite consequent to use it for extending a class, because we are saying it is of type `someclass`, which is implying inheritance.
+We know that ES6 defines the `extends` keyword for extending a `class`. Though we are disagreeing that we need to introduce an another keyword for this purpose. The colon `:` symbol already defines what kind of type an object has and it is quite consequent to use it for extending a class, because we are saying it is of type `someclass`, which is implying inheritance from `someclass`.
 
 ```
 class Mercedes : Something {
